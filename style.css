@@ -15,9 +15,6 @@ body,html {
   width: 100%;
   background-color: #F8F7F4;
 }
-main::selection{
-  color: red;
-}
 
 main{
   width: 100%;
@@ -82,8 +79,16 @@ main{
   border: none;
   background-color: #FFFFFF;
 }
-.links i{
+
+#none{
   display: none;
+}
+
+#navbar{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 /* .......Notre section Hero.....  */
@@ -107,10 +112,9 @@ main{
   font-family: heading;
   font-weight: 650;
   animation-name: scroll;
-  animation-duration: 2s;
-  animation-timing-function: all ease 5s;
+  animation-duration: 40s;
+  animation-timing-function:linear;
   animation-iteration-count: infinite;
-  animation-delay: linear;
 }
 .hero h1{
   font-size: 5.5vw;
@@ -147,11 +151,16 @@ main{
   flex-shrink: 0;
   width: 22vw;
   height: 100%;
-  background-color: yellow;
+  /* background-color: yellow; */
   border-radius: 3vw;
   overflow: hidden;
   position: relative;
 }
+
+input[type=checkbox]{
+  display: none;
+}
+
 .overlay{
   height: 40%;
   width: 100%;
@@ -359,6 +368,13 @@ section .box .boxFooter p{
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+
+input[type=checkbox]:checked ~ #navbar{
+  display:block;
+}
+
+
+
 @keyframes marquee {
   from{
     transform: translateX(0);
@@ -444,3 +460,6 @@ footer{
     background-color: rgb(173, 105, 255);
   }
 }
+
+
+

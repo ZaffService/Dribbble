@@ -154,9 +154,45 @@
     .footer-part1 .icons i{
         font-size: 4vw;
     }
+
+
+    #none{
+        display: block;
+    }
+
+    #navbar i{
+        display: none;
+    }
+    
+    #navbar{
+        display: none;
+    }
+
+    #navbar i{
+        display: none;
+    }
+    
+    #navbar{
+        display: none;
+    }
+    
+    
+    .footerScroller{
+        width: 100%;
+        height: 15vh;
+        padding-top: 9vw;
+      }
+      .wrapper{
+        width:fit-content  ;
+        height: 100%;
+      }
+    
    
 }
 @media (max-width : 400px) {
+    #none{
+        display: block;
+    }
     .hero h2{
         font-size: 4vw;
     }
@@ -164,14 +200,107 @@
         gap: 8vw;
     }
     .hero h1{
-        font-size: 17vw;
+        font-size: 10vw;
         width: 90%;
         line-height: 15vw;
     }
     .hero p{
-        font-size: 5vw;
+        font-size: 3vw;
     }
     .footerScroller{
         height: 26vh; 
 }
+
+#navbar i{
+    display: none;
 }
+
+#navbar{
+    display: none;
+}
+
+
+.footerScroller{
+    width: 100%;
+    height: 15vh;
+    padding-top: 9vw;
+  }
+  .wrapper{
+    width:fit-content  ;
+    height: 100%;
+  }
+
+}
+
+
+@media only screen and (min-width: 820px) and (max-width: 980px) {
+
+    #none{
+        display: block;
+    }
+    .hero h2{
+        font-size: 4vw;
+    }
+    .hero{
+        gap: 8vw;
+    }
+    .hero h1{
+        font-size: 10vw;
+        width: 90%;
+        line-height: 15vw;
+    }
+    .hero p{
+        font-size: 3vw;
+    }
+    .footerScroller{
+        height: 26vh; 
+}
+
+#navbar i{
+    display: none;
+}
+
+#navbar{
+    display: none;
+}
+
+
+.footerScroller{
+    width: 100%;
+    height: 15vh;
+    padding-top: 9vw;
+  }
+  .wrapper{
+    width:fit-content  ;
+    height: 100%;
+  }
+
+
+
+  .scroller{
+    width: fit-content;
+    flex-shrink: 0;
+    height: 20vh;
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+    padding: 0.5vw;
+    overflow: hidden;
+   
+  }
+  .scroller .elem{
+    flex-shrink: 0;
+    width: 22vw;
+    height: 100%;
+    /* background-color: yellow; */
+    border-radius: 3vw;
+    overflow: hidden;
+    position: relative;
+  }
+  
+
+    
+  }
+  
+
+

@@ -4,27 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reproduction du site de Dribbble</title>
-    <script src="https://kit.fontawesome.com/18e54117ba.js" crossorigin="anonymous"></script>
+    <title>Bakeli Dribbble</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="dribble_104270.ico" type="image/x-icon">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
 
 <body>
     <main>
+        
         <div class="heroContainer">
             <nav>
-
                 <div class="links">
-                    <i class="fa-solid fa-bars-staggered"></i>
                     <img src="./images/Dribbble-Logo.png" alt="">
-                    <a href="#">Find talent</a>
-                    <a href="#">Inspiration</a>
-                    <a href="#">Learn design<i class="fa-solid fa-caret-down"></i></a>
-                    <a href="#">Jobs</a>
-                    <a href="#">Go Pro</a>
+
+                    <label for="check"><i class="fa-solid fa-bars" id="none"></i></label>
+                    <input type="checkbox" id="check">
+
+                    <a id="navbar" href="#">Find talent<i class="fa-solid fa-angle-down"></i></a>
+                    <a id="navbar" href="#">Inspiration</a>
+                    <a id="navbar" href="#">Courses<i class="fa-solid fa-angle-down"></i></a>
+                    <a id="navbar" href="#">Jobs</a>
+                    <a id="navbar" href="#">Go Pro</a>
+                
                 </div>
                 <div class="signUps">
                     <input type="text" name="search" placeholder="  Search..">
@@ -35,10 +39,13 @@
             <div class="hero">
                 <h2>Over 3 million ready-to-work creatives!</h2>
                 <h1>The world's destination <br>for design</h1>
-                <p>Get inspired by the works of millions of top-rated designers & agencies around the world/</p>
+                <p>Get inspired by the works of millions of top-rated designers & agencies around the world.</p>
                 <button id="signIn">Get started</button>
             </div>
         </div>
+
+        <!-- VOICI MA SECTION POUR MA SECTION SCROLL NUMERO 1 -->
+
         <div class="scrollerContainer">
             <div class="scroller">
                 <div class="elem">
@@ -307,6 +314,11 @@
                 </div>
             </div>
         </div>
+
+
+
+        <!-- VOICI LA SECTION POUR CREER LA GALLERY D'IMAGE -->
+        
         <section>
             <h2>Explore inspiring designs</h2>
             <div>
@@ -691,6 +703,11 @@
                     </div>
                 </div>
             </div>
+
+
+            <!-- VOICI LE BOUTON Browse more inspiration  -->
+
+
             <button id="explore">Browse more inspiration</button>
         </section>
         <section class="join">
@@ -703,6 +720,12 @@
             </div>
             <h6>Are you a designer? <span>Join Dribbble</span></h6>
         </section>
+
+
+        <!-- VOICI MA SECTION MA SECTION POUR DEUXIEME SCROLL ANIMATION -->
+
+
+
         <div class="footerScroller">
             <div class="wrapper">
                 <div class="wrapperContainer">
