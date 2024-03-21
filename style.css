@@ -57,6 +57,7 @@ main{
   /* width: 7vw; */
   height: 4vw;
   margin-top: -10px;
+  cursor: pointer;
 }
 #Login{
   border: none;
@@ -138,6 +139,7 @@ main{
   flex-shrink: 0;
   height: 59vh;
   display: flex;
+  cursor: pointer;
   gap: 30px;
   flex-wrap: nowrap;
   padding: 0.5vw;
@@ -155,6 +157,7 @@ main{
   border-radius: 3vw;
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
 
 input[type=checkbox]{
@@ -261,6 +264,7 @@ section .box .boxImg img{
   height: 100%;
   object-fit: cover;
   object-position: center;
+  cursor: pointer;
 }
 section .box .boxFooter{
   width: 100%;
@@ -273,6 +277,7 @@ section .box .boxFooter{
 section .box .boxFooter img{
   width: 1.8vw;
   border-radius: 50%;
+  cursor: pointer;
 }
 .boxFooter i{
   font-size: 1.1vw;
